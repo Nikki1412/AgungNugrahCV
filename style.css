@@ -1,0 +1,45 @@
+body {
+    background-color: #eaeaea;
+    font-family: 'Viga', sans-serif;
+}
+
+.baris1 {
+    font-size: 18px;
+}
+
+.baris1 img {
+    width: 100%;
+    border-radius: 5px 50px 5px 5px;
+}
+
+/* Garis Bawah */
+hr {
+    width: 100%;
+    border-top: 3px solid grey;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+hr::after {
+    border-bottom: 3px solid black;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
+/* Akhir Garis Bawah */
+
+h3 {
+    text-transform: uppercase;
+}
+
+.baris2 .sp {
+    margin-top: -10px;
+}
+
+.pendidikan p {
+    margin-bottom: -5px;
+}
