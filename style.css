@@ -3,16 +3,16 @@ body {
     font-family: 'Viga', sans-serif;
 }
 
-.baris1 {
+.CV {
     font-size: 18px;
 }
 
-.baris1 img {
+.CV img {
     width: 100%;
     border-radius: 5px 50px 5px 5px;
 }
 
-/* Garis Bawah */
+/* Garis */
 hr {
     width: 100%;
     border-top: 3px solid grey;
@@ -30,16 +30,36 @@ hr::after {
     top: 0;
 }
 
-/* Akhir Garis Bawah */
+/* Akhir Garis */
 
 h3 {
     text-transform: uppercase;
 }
 
-.baris2 .sp {
+.sertifikat .sp {
     margin-top: -10px;
+    font-style: italic;
 }
 
 .pendidikan p {
     margin-bottom: -5px;
+}
+
+/* Responsive break */
+
+@media screen and (max-width:576px) {
+
+    .container {
+        padding: 1rem !important;
+    }
+
+    .CV {
+        padding: 1rem 1.5rem !important;
+    }
+
+    .alamat,
+    .nama {
+        text-align: center;
+    }
+
 }
